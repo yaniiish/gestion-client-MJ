@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #E3DCCB;
+    margin: 0 10%;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.deco {
+    text-align: end;
+    text-decoration: underline;
+    margin-top: 3%;
+}
+
+.ajout-recherche {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 20px;
+}
+
+.btn-1 {
+    background-color: #252525;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;    
+}
+.btn-1:hover {
+    opacity: 90%;
+}
+.btn-2 {
+    background-color: #fffff;
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;    
+}
+.btn-2:hover {
+    opacity: 90%;
+}
+
+table {
+    margin: auto;
+    width: 800px;
+}
+
+th {
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+td {
+    padding-left: 2%;
+    border-right: 1px solid black;
+}
+
+.modif-delete {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+form {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+form input {
+    width: 300px;
+    height: 25px;
+}
+
+
+.retour {
+    text-decoration: underline;
+}
+
+.ajout-retour {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login {
+    gap: 0;
+}
+
+.erreur {
+    text-align: center;
+    color: red;
+}
+
+.edit-search {
+    margin-bottom: 4%;
+}
+
+.modif-search {
+    margin: 20px;
+}
